@@ -7,13 +7,13 @@ const Home = () => {
   return (
     <div>
       <div className="flex">
-        <div className="menu max-w-sm">
+        <div className="menu max-w-[345px]">
           <SideMenus></SideMenus>
         </div>
         <div className="order flex-auto bg-[#F5F5F5] px-6">
-          <div className="flex py-5">
+          <div className="flex py-5 justify-between">
             <div>
-              <h2>Food Order</h2>
+              <h2 className="text-3xl font-bold">Food Order</h2>
             </div>
             <div>
               <SearchBar></SearchBar>
@@ -23,7 +23,7 @@ const Home = () => {
             <Orders></Orders>
           </div>
         </div>
-        <div className="order-summery max-w-sm"></div>
+        <div className="order-summery max-w-[455px]"></div>
       </div>
     </div>
   );
