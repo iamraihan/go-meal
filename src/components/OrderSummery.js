@@ -6,6 +6,7 @@ import {
   VscSettingsGear,
 } from "react-icons/vsc";
 import { IoIosNotificationsOutline } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const OrderSummery = () => {
   return (
@@ -107,6 +108,10 @@ const OrderSummery = () => {
       <div className="mt-5">
         <button className="btn btn-primary">Delivering to you</button>
       </div>
+
+      <Link className="" to="/menu">
+        <button className="btn btn-primary mt-16">Second Page</button>
+      </Link>
     </div>
   );
 };

@@ -7,6 +7,7 @@ import {
   FaMoneyBillWave,
 } from "react-icons/fa";
 import { VscCommentDiscussion, VscSettingsGear } from "react-icons/vsc";
+import bgImage from "../images/Group 362.jpg";
 
 const SideMenus = () => {
   return (
